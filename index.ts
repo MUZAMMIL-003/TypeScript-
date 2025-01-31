@@ -21,8 +21,8 @@ func3(1, 2);
 
 interface User {
     name: string;
-    age: number;
-    phoneNum : string;
+    age: number | string; /// it can be number or string
+    phoneNum? : string; //// optional
     favNums : number[];
     favDishes : string[];
 }
