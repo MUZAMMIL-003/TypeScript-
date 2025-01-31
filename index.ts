@@ -35,3 +35,5 @@ const user : User = {
     favDishes: ["pasta", "pizza"]
 }
 console.log(user);
+
+// that's enough for today
