@@ -17,3 +17,21 @@ let func2 : (a: number, b: number) => number = (a, b) => a + b;
 func2(1, 2);
 let func3 : (a: number, b: number) => number = function(a, b) {return a + b};
 func3(1, 2);
+
+
+interface User {
+    name: string;
+    age: number;
+    phoneNum : string;
+    favNums : number[];
+    favDishes : string[];
+}
+
+const user : User = {
+    name: "John",
+    age: 20,
+    phoneNum: "010-1234-5678",
+    favNums: [1, 2, 3],
+    favDishes: ["pasta", "pizza"]
+}
+console.log(user);
