@@ -37,4 +37,3 @@ const user : User = {
 }
 console.log(user);
 
-// that's enough for today
