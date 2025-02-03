@@ -38,3 +38,26 @@ const user : User = {
 console.log(user);
 
 // type :any is called dynamic type..
+
+
+
+
+
+
+
+
+
+// it,s called generic type
+interface User1<Type> {
+    name: string;
+    age: number;
+    phoneNum? : string; //// optional
+    favNums : Type;
+}
+
+const user1 : User1 <number> = {
+    name: "John",
+    age: 20,
+    favNums: 123,
+}
+console.log(user1);
