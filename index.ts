@@ -69,6 +69,9 @@ const user2: User1<number[]> = {
 }
 console.log(user2);
 
+
+
+/// agar hamey ek object me multiple types of data chahiye to hum is tarah se bana sakte hain
 const user3: User1<{ one: string, two: number, three: boolean }> = {
     name: "John",
     age: 20,
