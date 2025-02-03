@@ -37,3 +37,4 @@ const user : User = {
 }
 console.log(user);
 
+// type :any is called dynamic type..
