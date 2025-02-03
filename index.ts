@@ -113,3 +113,12 @@ let colors: { color: string, colorNum: number }[] = [
         colorNum: colorStatus.YELLOW
     }
 ]
+
+
+
+// function k arguments ko type dena
+let sum = (a :number,b:number) :number =>{
+ return a + b; // agar hum chahtey hen ki return mlney wali value bhi number ho to hum uper parameter k baad number likh saktey hen 
+}
+
+ let result : number = sum(10,10);
