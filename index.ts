@@ -128,3 +128,10 @@ let result: number = sum(10, 10);
 let greet = (userName: string): string => {
     return `Welcome ${userName}`
 }
+
+
+// just like javascript
+let abc : any = "abc";
+abc = 123;
+abc = true;
+abc = [1,2,3];
