@@ -82,3 +82,34 @@ const user3: User1<{ one: string, two: number, three: boolean }> = {
     },
 }
 console.log(user3);
+
+
+
+
+
+// it,s called Enums
+enum colorStatus {
+    RED, // agar hum chahtey hen ki ye 1 se start ho to hum isko " = 1" kar denge
+    GREEN,// agar hum chahtey hen ki iski type string ho to hum islo " = string" kar denge 
+    BLUE,
+    YELLOW,
+}
+
+let colors: { color: string, colorNum: number }[] = [
+    {
+        color: "red",
+        colorNum: colorStatus.RED
+    },
+    {
+        color: "green",
+        colorNum: colorStatus.GREEN
+    },
+    {
+        color: "blue",
+        colorNum: colorStatus.BLUE
+    },
+    {
+        color: "yellow",
+        colorNum: colorStatus.YELLOW
+    }
+]
