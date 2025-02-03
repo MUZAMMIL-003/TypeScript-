@@ -1,4 +1,4 @@
-all types of variables in typescript by copilot
+//all types of variables in typescript by copilot
 let num: number = 1;
 let str: string = "Hello";
 let bool: boolean = true;
