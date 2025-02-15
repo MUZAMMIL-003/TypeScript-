@@ -1,4 +1,6 @@
+
 "use strict";
+
 //all types of variables in typescript by copilot
 let num = 1;
 let str = "Hello";
@@ -50,6 +52,7 @@ const user3 = {
     },
 };
 console.log(user3);
+
 // it,s called Enums
 var colorStatus;
 (function (colorStatus) {
@@ -76,6 +79,8 @@ let colors = [
         colorNum: colorStatus.YELLOW
     }
 ];
+
+
 // function k arguments ko type dena
 let sum = (a, b) => {
     return a + b; // agar hum chahtey hen ki return mlney wali value bhi number ho to hum uper parameter k baad number likh saktey hen 
@@ -84,6 +89,8 @@ let result = sum(10, 10);
 let greet = (userName) => {
     return `Welcome ${userName}`;
 };
+
+
 // just like javascript
 let abc = "abc";
 abc = 123;
