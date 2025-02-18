@@ -137,3 +137,4 @@ abc = true;
 abc = [1,2,3];
 
 ////////////////// Making some changes ////////////////////////////////////
+let xyz  : number = 8910
