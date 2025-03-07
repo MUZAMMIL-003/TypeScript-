@@ -131,10 +131,10 @@ let greet = (userName: string): string => {
 
 
 // just like javascript
-let abc : any = "abc";
+let abc: any = "abc";
 abc = 123;
 abc = true;
-abc = [1,2,3];
+abc = [1, 2, 3];
 
 ////////////////// Making some changes ////////////////////////////////////
-let xyz  : number = 8910
+let xyz: number = 8910
